@@ -33,7 +33,7 @@ function MovieDetails() {
   return (
     <div className="container my-5">
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-4 text-center">
           <img
             src={movie?.Poster}
             className="img-fluid rounded"

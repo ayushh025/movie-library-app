@@ -1,12 +1,66 @@
-# React + Vite
+# 🎬 Movie Library App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Movie Library application built with React.js, Redux, Bootstrap, and the OMDb API. Users can browse popular movies, search for movies in real time, view detailed information, and manage their personal watchlist.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* 🔍 Live Movie Search
+* 🎥 Movie Details Page
+* ⭐ Add/Remove Movies from Watchlist
+* 🔐 Simple Authentication (Login/Logout)
+* 🔒 Protected Watchlist Route
+* 💾 Persistent Watchlist using Local Storage
+* 📱 Responsive Design with Bootstrap
+* 🎬 IMDb Integration
+* ⏳ Loading Indicators and Error Handling
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* Redux
+* React Router DOM
+* Bootstrap 5
+* Axios
+* OMDb API
+* Local Storage
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/ayushh025/movie-library-app.git
+```
+
+Navigate to the project directory
+
+```bash
+cd movie-library-app
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Create a `.env` file in the root directory
+
+```env
+VITE_OMDB_API_KEY=YOUR_API_KEY
+```
+
+Run the project
+
+```bash
+npm run dev
+```
+
+## 🌐 Live Demo
+
+https://movie-library-app-ayushh025.vercel.app
+
+## 👨‍💻 Author
+
+Ayush Prajapati
+React Developer
